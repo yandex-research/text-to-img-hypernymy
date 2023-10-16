@@ -1,0 +1,1 @@
+This code is for counting synset occurences in LAION-400M. We adapted it for other datasets by changing the `url` parameter in `count_lemmas_lemmatize.py` and the `seq` arguments in `count_lemmas_lemmatize.sh`.

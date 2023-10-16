@@ -1,0 +1,1 @@
+seq -w 0000 4012 | xargs -P48 -I{} bash -c 'python3 ./count_lemmas_lemmatize.py non_leaf_synsets_first_lemmas.json lemma_counts {} cache >logs/stdout-{}.txt 2>logs/stderr-{}.txt; echo "done"' | tqdm --total 4013
